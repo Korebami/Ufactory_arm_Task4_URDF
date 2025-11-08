@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/meshes":
+  No such file or directory.
+
+[0m

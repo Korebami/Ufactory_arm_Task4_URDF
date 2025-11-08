@@ -1,0 +1,16 @@
+-- Install configuration: ""
+-- Installing: /mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/install/ufactory_arm_description/share/ufactory_arm_description//meshes
+-- Installing: /mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/install/ufactory_arm_description/share/ufactory_arm_description//meshes/gripper_lite.stl
+-- Installing: /mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/install/ufactory_arm_description/share/ufactory_arm_description//meshes/link1.stl
+-- Installing: /mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/install/ufactory_arm_description/share/ufactory_arm_description//meshes/link2.stl
+-- Installing: /mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/install/ufactory_arm_description/share/ufactory_arm_description//meshes/link3.stl
+-- Installing: /mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/install/ufactory_arm_description/share/ufactory_arm_description//meshes/link4.stl
+-- Installing: /mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/install/ufactory_arm_description/share/ufactory_arm_description//meshes/link5.stl
+-- Installing: /mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/install/ufactory_arm_description/share/ufactory_arm_description//meshes/link6.stl
+-- Installing: /mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/install/ufactory_arm_description/share/ufactory_arm_description//meshes/link_base.stl
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/urdf":
+  No such file or directory.
+
+[0m
