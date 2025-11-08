@@ -1,0 +1,20 @@
+[0.204s] Invoking command in '/mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/build/ufactory_arm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/build/ufactory_arm_description -- -j8 -l8
+[0.417s] Invoked command in '/mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/build/ufactory_arm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/build/ufactory_arm_description -- -j8 -l8
+[0.507s] Invoking command in '/mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/build/ufactory_arm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/build/ufactory_arm_description
+[0.527s] -- Install configuration: ""
+[0.550s] -- Installing: /mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/install/ufactory_arm_description/share/ufactory_arm_description//meshes
+[0.662s] -- Installing: /mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/install/ufactory_arm_description/share/ufactory_arm_description//meshes/gripper_lite.stl
+[0.933s] -- Installing: /mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/install/ufactory_arm_description/share/ufactory_arm_description//meshes/link1.stl
+[1.174s] -- Installing: /mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/install/ufactory_arm_description/share/ufactory_arm_description//meshes/link2.stl
+[1.464s] -- Installing: /mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/install/ufactory_arm_description/share/ufactory_arm_description//meshes/link3.stl
+[1.825s] -- Installing: /mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/install/ufactory_arm_description/share/ufactory_arm_description//meshes/link4.stl
+[2.259s] -- Installing: /mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/install/ufactory_arm_description/share/ufactory_arm_description//meshes/link5.stl
+[2.626s] -- Installing: /mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/install/ufactory_arm_description/share/ufactory_arm_description//meshes/link6.stl
+[2.974s] -- Installing: /mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/install/ufactory_arm_description/share/ufactory_arm_description//meshes/link_base.stl
+[3.192s] [31mCMake Error at cmake_install.cmake:46 (file):
+[3.194s]   file INSTALL cannot find
+[3.196s]   "/mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/urdf":
+[3.198s]   No such file or directory.
+[3.199s] 
+[3.200s] [0m
+[3.202s] Invoked command in '/mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/build/ufactory_arm_description' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/build/ufactory_arm_description

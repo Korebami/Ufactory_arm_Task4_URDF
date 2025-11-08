@@ -1,0 +1,281 @@
+[0.000000] (-) TimerEvent: {}
+[0.000784] (ufactory_arm_description) JobQueued: {'identifier': 'ufactory_arm_description', 'dependencies': OrderedDict()}
+[0.001055] (ufactory_arm_description) JobStarted: {'identifier': 'ufactory_arm_description'}
+[0.036721] (ufactory_arm_description) JobProgress: {'identifier': 'ufactory_arm_description', 'progress': 'cmake'}
+[0.094118] (ufactory_arm_description) Command: {'cmd': ['/usr/bin/cmake', '/mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf', '-DCMAKE_INSTALL_PREFIX=/mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/install/ufactory_arm_description'], 'cwd': '/mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/build/ufactory_arm_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'korebami'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/korebami'), ('OLDPWD', '/home/korebami'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'korebami'), ('NAME', 'LAPTOP-3FHJA5E2'), ('WSL_INTEROP', '/run/WSL/1506_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/oyink/AppData/Local/Programs/Python/Python311/Scripts:/mnt/c/Program Files/dotnet/:/mnt/c/Users/oyink/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/oyink/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/oyink/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/oyink/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files (x86)/Brackets/:/mnt/c/Users/oyink/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/oyink/AppData/Local/JetBrains/Toolbox/scripts:/mnt/c/Users/oyink/AppData/Roaming/npm:/mnt/c/Users/oyink/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/oyink/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/build/ufactory_arm_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.117181] (-) TimerEvent: {}
+[0.217776] (-) TimerEvent: {}
+[0.318706] (-) TimerEvent: {}
+[0.419764] (-) TimerEvent: {}
+[0.521017] (-) TimerEvent: {}
+[0.621662] (-) TimerEvent: {}
+[0.722471] (-) TimerEvent: {}
+[0.823878] (-) TimerEvent: {}
+[0.925350] (-) TimerEvent: {}
+[1.026867] (-) TimerEvent: {}
+[1.062636] (ufactory_arm_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.127089] (-) TimerEvent: {}
+[1.227875] (-) TimerEvent: {}
+[1.328641] (-) TimerEvent: {}
+[1.429487] (-) TimerEvent: {}
+[1.530509] (-) TimerEvent: {}
+[1.631477] (-) TimerEvent: {}
+[1.732409] (-) TimerEvent: {}
+[1.833067] (-) TimerEvent: {}
+[1.934205] (-) TimerEvent: {}
+[2.035072] (-) TimerEvent: {}
+[2.136024] (-) TimerEvent: {}
+[2.236901] (-) TimerEvent: {}
+[2.337724] (-) TimerEvent: {}
+[2.438596] (-) TimerEvent: {}
+[2.539225] (-) TimerEvent: {}
+[2.639970] (-) TimerEvent: {}
+[2.740708] (-) TimerEvent: {}
+[2.766545] (ufactory_arm_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.840872] (-) TimerEvent: {}
+[2.942011] (-) TimerEvent: {}
+[3.042958] (-) TimerEvent: {}
+[3.143738] (-) TimerEvent: {}
+[3.244693] (-) TimerEvent: {}
+[3.345348] (-) TimerEvent: {}
+[3.445930] (-) TimerEvent: {}
+[3.546873] (-) TimerEvent: {}
+[3.647799] (-) TimerEvent: {}
+[3.728386] (ufactory_arm_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.748008] (-) TimerEvent: {}
+[3.849006] (-) TimerEvent: {}
+[3.950258] (-) TimerEvent: {}
+[4.051261] (-) TimerEvent: {}
+[4.152343] (-) TimerEvent: {}
+[4.253319] (-) TimerEvent: {}
+[4.354844] (-) TimerEvent: {}
+[4.455596] (-) TimerEvent: {}
+[4.556531] (-) TimerEvent: {}
+[4.657476] (-) TimerEvent: {}
+[4.758579] (-) TimerEvent: {}
+[4.859507] (-) TimerEvent: {}
+[4.960392] (-) TimerEvent: {}
+[5.061272] (-) TimerEvent: {}
+[5.162123] (-) TimerEvent: {}
+[5.262952] (-) TimerEvent: {}
+[5.363731] (-) TimerEvent: {}
+[5.417497] (ufactory_arm_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.463885] (-) TimerEvent: {}
+[5.492676] (ufactory_arm_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.494824] (ufactory_arm_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.498431] (ufactory_arm_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.564128] (-) TimerEvent: {}
+[5.621547] (ufactory_arm_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.664368] (-) TimerEvent: {}
+[5.765489] (-) TimerEvent: {}
+[5.866353] (-) TimerEvent: {}
+[5.967424] (-) TimerEvent: {}
+[6.068682] (-) TimerEvent: {}
+[6.169960] (-) TimerEvent: {}
+[6.271024] (-) TimerEvent: {}
+[6.372553] (-) TimerEvent: {}
+[6.473639] (-) TimerEvent: {}
+[6.574317] (-) TimerEvent: {}
+[6.675198] (-) TimerEvent: {}
+[6.776614] (-) TimerEvent: {}
+[6.877531] (-) TimerEvent: {}
+[6.978304] (-) TimerEvent: {}
+[7.079573] (-) TimerEvent: {}
+[7.180385] (-) TimerEvent: {}
+[7.214626] (ufactory_arm_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.276804] (ufactory_arm_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[7.281183] (-) TimerEvent: {}
+[7.281904] (ufactory_arm_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.284728] (ufactory_arm_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.364085] (ufactory_arm_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[7.381291] (-) TimerEvent: {}
+[7.482109] (-) TimerEvent: {}
+[7.542078] (ufactory_arm_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[7.582325] (-) TimerEvent: {}
+[7.683165] (-) TimerEvent: {}
+[7.784096] (-) TimerEvent: {}
+[7.870054] (ufactory_arm_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.884250] (-) TimerEvent: {}
+[7.984962] (-) TimerEvent: {}
+[8.085879] (-) TimerEvent: {}
+[8.186800] (-) TimerEvent: {}
+[8.287751] (-) TimerEvent: {}
+[8.388981] (-) TimerEvent: {}
+[8.489764] (-) TimerEvent: {}
+[8.590930] (-) TimerEvent: {}
+[8.691993] (-) TimerEvent: {}
+[8.792814] (-) TimerEvent: {}
+[8.893828] (-) TimerEvent: {}
+[8.994875] (-) TimerEvent: {}
+[9.095664] (-) TimerEvent: {}
+[9.196775] (-) TimerEvent: {}
+[9.297687] (-) TimerEvent: {}
+[9.398506] (-) TimerEvent: {}
+[9.499448] (-) TimerEvent: {}
+[9.600594] (-) TimerEvent: {}
+[9.701225] (-) TimerEvent: {}
+[9.802083] (-) TimerEvent: {}
+[9.903439] (-) TimerEvent: {}
+[10.004085] (-) TimerEvent: {}
+[10.104728] (-) TimerEvent: {}
+[10.205938] (-) TimerEvent: {}
+[10.306616] (-) TimerEvent: {}
+[10.407248] (-) TimerEvent: {}
+[10.508010] (-) TimerEvent: {}
+[10.608696] (-) TimerEvent: {}
+[10.709471] (-) TimerEvent: {}
+[10.810333] (-) TimerEvent: {}
+[10.911429] (-) TimerEvent: {}
+[11.012164] (-) TimerEvent: {}
+[11.112851] (-) TimerEvent: {}
+[11.213684] (-) TimerEvent: {}
+[11.314833] (-) TimerEvent: {}
+[11.418917] (-) TimerEvent: {}
+[11.521412] (-) TimerEvent: {}
+[11.626278] (-) TimerEvent: {}
+[11.728479] (-) TimerEvent: {}
+[11.833578] (-) TimerEvent: {}
+[11.938334] (-) TimerEvent: {}
+[12.043265] (-) TimerEvent: {}
+[12.148049] (-) TimerEvent: {}
+[12.249565] (-) TimerEvent: {}
+[12.354957] (-) TimerEvent: {}
+[12.459031] (-) TimerEvent: {}
+[12.570355] (-) TimerEvent: {}
+[12.680950] (-) TimerEvent: {}
+[12.801139] (-) TimerEvent: {}
+[12.909383] (-) TimerEvent: {}
+[13.020572] (-) TimerEvent: {}
+[13.124196] (-) TimerEvent: {}
+[13.227436] (-) TimerEvent: {}
+[13.331189] (-) TimerEvent: {}
+[13.435004] (-) TimerEvent: {}
+[13.508930] (ufactory_arm_description) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[13.511718] (ufactory_arm_description) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[13.513283] (ufactory_arm_description) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[13.535393] (-) TimerEvent: {}
+[13.638758] (-) TimerEvent: {}
+[13.741527] (-) TimerEvent: {}
+[13.844226] (-) TimerEvent: {}
+[13.947720] (-) TimerEvent: {}
+[14.050993] (-) TimerEvent: {}
+[14.154090] (-) TimerEvent: {}
+[14.257508] (-) TimerEvent: {}
+[14.360649] (-) TimerEvent: {}
+[14.463558] (-) TimerEvent: {}
+[14.566695] (-) TimerEvent: {}
+[14.669440] (-) TimerEvent: {}
+[14.772357] (-) TimerEvent: {}
+[14.874992] (-) TimerEvent: {}
+[14.977884] (-) TimerEvent: {}
+[15.080900] (-) TimerEvent: {}
+[15.183961] (-) TimerEvent: {}
+[15.287039] (-) TimerEvent: {}
+[15.389213] (-) TimerEvent: {}
+[15.490667] (-) TimerEvent: {}
+[15.537554] (ufactory_arm_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[15.591393] (-) TimerEvent: {}
+[15.694050] (-) TimerEvent: {}
+[15.797066] (-) TimerEvent: {}
+[15.900542] (-) TimerEvent: {}
+[16.003141] (-) TimerEvent: {}
+[16.105649] (-) TimerEvent: {}
+[16.208571] (-) TimerEvent: {}
+[16.311666] (-) TimerEvent: {}
+[16.414111] (-) TimerEvent: {}
+[16.516213] (-) TimerEvent: {}
+[16.618518] (-) TimerEvent: {}
+[16.721156] (-) TimerEvent: {}
+[16.823303] (-) TimerEvent: {}
+[16.925288] (-) TimerEvent: {}
+[17.027554] (-) TimerEvent: {}
+[17.129721] (-) TimerEvent: {}
+[17.232338] (-) TimerEvent: {}
+[17.334388] (-) TimerEvent: {}
+[17.436068] (-) TimerEvent: {}
+[17.538531] (-) TimerEvent: {}
+[17.641051] (-) TimerEvent: {}
+[17.743083] (-) TimerEvent: {}
+[17.845564] (-) TimerEvent: {}
+[17.947211] (-) TimerEvent: {}
+[18.049145] (-) TimerEvent: {}
+[18.151310] (-) TimerEvent: {}
+[18.253167] (-) TimerEvent: {}
+[18.355063] (-) TimerEvent: {}
+[18.456350] (-) TimerEvent: {}
+[18.557875] (-) TimerEvent: {}
+[18.659449] (-) TimerEvent: {}
+[18.761066] (-) TimerEvent: {}
+[18.862698] (-) TimerEvent: {}
+[18.964928] (-) TimerEvent: {}
+[19.066601] (-) TimerEvent: {}
+[19.168597] (-) TimerEvent: {}
+[19.270674] (-) TimerEvent: {}
+[19.372287] (-) TimerEvent: {}
+[19.473504] (-) TimerEvent: {}
+[19.575136] (-) TimerEvent: {}
+[19.676275] (-) TimerEvent: {}
+[19.777933] (-) TimerEvent: {}
+[19.879516] (-) TimerEvent: {}
+[19.981627] (-) TimerEvent: {}
+[20.083147] (-) TimerEvent: {}
+[20.183838] (-) TimerEvent: {}
+[20.285031] (-) TimerEvent: {}
+[20.385909] (-) TimerEvent: {}
+[20.487945] (-) TimerEvent: {}
+[20.589315] (-) TimerEvent: {}
+[20.690541] (-) TimerEvent: {}
+[20.792083] (-) TimerEvent: {}
+[20.893454] (-) TimerEvent: {}
+[20.994559] (-) TimerEvent: {}
+[21.095747] (-) TimerEvent: {}
+[21.139104] (ufactory_arm_description) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[21.140813] (ufactory_arm_description) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[21.196133] (-) TimerEvent: {}
+[21.298353] (-) TimerEvent: {}
+[21.400381] (-) TimerEvent: {}
+[21.502387] (-) TimerEvent: {}
+[21.603444] (-) TimerEvent: {}
+[21.615354] (ufactory_arm_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[21.703888] (-) TimerEvent: {}
+[21.800609] (ufactory_arm_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[21.803963] (-) TimerEvent: {}
+[21.904796] (-) TimerEvent: {}
+[22.006054] (-) TimerEvent: {}
+[22.106858] (-) TimerEvent: {}
+[22.207980] (-) TimerEvent: {}
+[22.308908] (-) TimerEvent: {}
+[22.409777] (-) TimerEvent: {}
+[22.511321] (-) TimerEvent: {}
+[22.515773] (ufactory_arm_description) StdoutLine: {'line': b'-- Generating done\n'}
+[22.611667] (-) TimerEvent: {}
+[22.713097] (-) TimerEvent: {}
+[22.815034] (-) TimerEvent: {}
+[22.916829] (-) TimerEvent: {}
+[23.018307] (-) TimerEvent: {}
+[23.119979] (-) TimerEvent: {}
+[23.208991] (ufactory_arm_description) StdoutLine: {'line': b'-- Build files have been written to: /mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/build/ufactory_arm_description\n'}
+[23.214164] (ufactory_arm_description) CommandEnded: {'returncode': 0}
+[23.220099] (-) TimerEvent: {}
+[23.227435] (ufactory_arm_description) JobProgress: {'identifier': 'ufactory_arm_description', 'progress': 'build'}
+[23.244070] (ufactory_arm_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/build/ufactory_arm_description', '--', '-j8', '-l8'], 'cwd': '/mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/build/ufactory_arm_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'korebami'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/korebami'), ('OLDPWD', '/home/korebami'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'korebami'), ('NAME', 'LAPTOP-3FHJA5E2'), ('WSL_INTEROP', '/run/WSL/1506_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/oyink/AppData/Local/Programs/Python/Python311/Scripts:/mnt/c/Program Files/dotnet/:/mnt/c/Users/oyink/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/oyink/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/oyink/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/oyink/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files (x86)/Brackets/:/mnt/c/Users/oyink/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/oyink/AppData/Local/JetBrains/Toolbox/scripts:/mnt/c/Users/oyink/AppData/Roaming/npm:/mnt/c/Users/oyink/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/oyink/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/build/ufactory_arm_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[23.320343] (-) TimerEvent: {}
+[23.421086] (-) TimerEvent: {}
+[23.503447] (ufactory_arm_description) CommandEnded: {'returncode': 0}
+[23.521374] (-) TimerEvent: {}
+[23.567317] (ufactory_arm_description) JobProgress: {'identifier': 'ufactory_arm_description', 'progress': 'install'}
+[23.588428] (ufactory_arm_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/build/ufactory_arm_description'], 'cwd': '/mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/build/ufactory_arm_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'korebami'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/korebami'), ('OLDPWD', '/home/korebami'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'korebami'), ('NAME', 'LAPTOP-3FHJA5E2'), ('WSL_INTEROP', '/run/WSL/1506_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/oyink/AppData/Local/Programs/Python/Python311/Scripts:/mnt/c/Program Files/dotnet/:/mnt/c/Users/oyink/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/oyink/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/oyink/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/oyink/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files (x86)/Brackets/:/mnt/c/Users/oyink/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/oyink/AppData/Local/JetBrains/Toolbox/scripts:/mnt/c/Users/oyink/AppData/Roaming/npm:/mnt/c/Users/oyink/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/oyink/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/build/ufactory_arm_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[23.604644] (ufactory_arm_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.606109] (ufactory_arm_description) StderrLine: {'line': b'\x1b[31mCMake Error at cmake_install.cmake:46 (file):\n'}
+[23.607142] (ufactory_arm_description) StderrLine: {'line': b'  file INSTALL cannot find\n'}
+[23.609178] (ufactory_arm_description) StderrLine: {'line': b'  "/mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/meshes":\n'}
+[23.611040] (ufactory_arm_description) StderrLine: {'line': b'  No such file or directory.\n'}
+[23.612017] (ufactory_arm_description) StderrLine: {'line': b'\n'}
+[23.613246] (ufactory_arm_description) StderrLine: {'line': b'\x1b[0m\n'}
+[23.614655] (ufactory_arm_description) CommandEnded: {'returncode': 1}
+[23.621701] (-) TimerEvent: {}
+[23.723575] (-) TimerEvent: {}
+[23.824892] (-) TimerEvent: {}
+[23.925896] (-) TimerEvent: {}
+[23.962821] (ufactory_arm_description) JobEnded: {'identifier': 'ufactory_arm_description', 'rc': 1}
+[23.985231] (-) EventReactorShutdown: {}
