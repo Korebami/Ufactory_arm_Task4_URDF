@@ -1,0 +1,101 @@
+<robot name = "arm">
+    <link name="base_link" type="fixed">
+        <visual>
+            <origin xyz = "0 0 0" rpy = "0 0 0"/>   
+            <geometry>
+             <mesh filename="package://ufactory_arm_description/meshes/link_base.stl" scale="1.0 1.0 1.0"/>
+            </geometry>
+        </visual>
+    </link>
+    <link name="link1">
+        <visual>
+            <origin xyz = "0 0 0" rpy = "0 0 0"/>   
+            <geometry>
+              <mesh filename="package://ufactory_arm_description/meshes/link1.stl" scale="1.0 1.0 1.0"/>
+            </geometry>
+        </visual>
+    </link> 
+         <!-- Joint connecting link1 → link2 -->
+    <joint name="joint1" type="revolute">
+        <origin xyz= "0.0 0.0 0.243" rpy="0.0 0.0 0.0"/>
+        <parent link="base_link"/>
+        <child link="link1"/>
+        <axis xyz="0 0 1"/>
+        <limit lower="-3.14" upper="3.14" effort="0" velocity="0"/>
+    </joint>
+    <link name="link2">
+        <visual>
+            <origin xyz = "0 0 0" rpy = "-1.5708 -1.5708 0"/>   
+            <geometry>
+              <mesh filename="package://ufactory_arm_description/meshes/link2.stl" scale="1.0 1.0 1.0"/>
+            </geometry>
+        </visual>
+    </link> 
+    <joint name="joint2" type="fixed">
+        <origin xyz= "0.0 0 0" rpy="0.0 0.0 0.0"/>
+        <parent link="link1"/>
+        <child link="link2"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="-2.5" upper="2.5" effort="0" velocity="0"/>
+    </joint>
+    <link name="link3">
+        <visual>
+            <origin xyz = "0 0 0" rpy = "0 0 0"/>   
+            <geometry>
+              <mesh filename="package://ufactory_arm_description/meshes/link3.stl" scale="1.0 1.0 1.0"/>
+            </geometry>
+        </visual>
+    </link> 
+    <joint name="joint3" type="revolute">
+        <origin xyz= "0 0.001 0.2" rpy="1.5708 0.0 0.0"/>
+        <parent link="link2"/>
+        <child link="link3"/>
+        <axis xyz="0 0 1"/>
+        <limit lower="-3.14" upper="3.14" effort="0" velocity="0"/>
+    </joint>
+    <link name="link4">
+        <visual>
+            <origin xyz = "0 0 0" rpy = "0 0 0"/>   
+            <geometry>
+              <mesh filename="package://ufactory_arm_description/meshes/link4.stl" scale="1.0 1.0 1.0"/>
+            </geometry>
+        </visual>
+    </link> 
+    <joint name="joint4" type="revolute">
+        <origin xyz= "0.087 -0.2275 0" rpy="1.5708 0.0 0.0"/>
+        <parent link="link3"/>
+        <child link="link4"/>
+        <axis xyz="0 0 1"/>
+        <limit lower="-3.14" upper="3.14" effort="0" velocity="0"/>
+    </joint>
+    <link name="link5">
+        <visual>
+            <origin xyz = "0 0 0" rpy = "0 0 0"/>   
+            <geometry>
+              <mesh filename="package://ufactory_arm_description/meshes/link5.stl" scale="1.0 1.0 1.0"/>
+            </geometry>
+        </visual>
+    </link> 
+    <joint name="joint5" type="revolute">
+        <origin xyz= "0.0 0.000 0" rpy="1.5708 0 0.0"/>
+        <parent link="link4"/>
+        <child link="link5"/>
+        <axis xyz="0 0 1"/>
+        <limit lower="-3.14" upper="3.14" effort="0" velocity="0"/>
+    </joint>
+    <link name="link6">
+        <visual>
+            <origin xyz = "0 0 0" rpy = "0 0 0"/>   
+            <geometry>
+              <mesh filename="package://ufactory_arm_description/meshes/link6.stl" scale="1.0 1.0 1.0"/>
+            </geometry>
+        </visual>
+    </link> 
+    <joint name="joint6" type="revolute">
+        <origin xyz= "0 0.041 0" rpy="1.5708 0 0"/>
+        <parent link="link5"/>
+        <child link="link6"/>
+        <axis xyz="0 0 1"/>
+        <limit lower="-3.14" upper="3.14" effort="0" velocity="0"/>
+    </joint>
+</robot>

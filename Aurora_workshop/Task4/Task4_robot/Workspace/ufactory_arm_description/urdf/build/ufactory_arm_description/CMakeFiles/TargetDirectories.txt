@@ -1,0 +1,9 @@
+/mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/build/ufactory_arm_description/CMakeFiles/uninstall.dir
+/mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/build/ufactory_arm_description/CMakeFiles/ufactory_arm_description_uninstall.dir
+/mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/build/ufactory_arm_description/CMakeFiles/test.dir
+/mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/build/ufactory_arm_description/CMakeFiles/edit_cache.dir
+/mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/build/ufactory_arm_description/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/build/ufactory_arm_description/CMakeFiles/list_install_components.dir
+/mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/build/ufactory_arm_description/CMakeFiles/install.dir
+/mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/build/ufactory_arm_description/CMakeFiles/install/local.dir
+/mnt/c/Users/oyink/Aurora_workshop/Task4/Task4_robot/Workspace/ufactory_arm_description/urdf/build/ufactory_arm_description/CMakeFiles/install/strip.dir
